@@ -25,7 +25,9 @@ public class Main {
         //
         // Create a new project and add your Series library, then test the
         // three methods in the main() method of your new project.
-        for(int i = 0; i <= 10; i++) System.out.println(Series.nSum(i));
-        for(int i = 0; i <= 10; i++) System.out.println(Series.factorial(i));
+
+        for (int i = 0; i <= 10; i++) System.out.println(Series.nSum(i));
+        for (int i = 0; i <= 10; i++) System.out.println(Series.factorial(i));
+        for (int i = 0; i <= 10; i++) System.out.println(Series.fibonacci(i));
     }
 }
